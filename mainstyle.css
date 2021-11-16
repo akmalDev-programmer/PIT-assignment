@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+   
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),transparent),url(mainImage.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0 8%;
+    position: relative;
+    
+}
+.text-box {
+    color: #fff;
+    position: absolute;
+    bottom: 8%;
+}
+.text-box h1 {
+    font-size: 120px;
+    line-height: 80px;
+    margin-left: -10px;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    background: url(back.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+}
+@keyframes back {
+    100%{
+        background-position: 2000px 0;
+    }
+}
+.text-box .row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.text-box a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-right: 20px;
+    border: 2px solid #fff;
+    background: linear-gradient(360deg,transparent,#03e9f4);
+    animation: 1s linear infinite;
+    animation-delay: .75s;
+}
+.text-box a span {
+    position: absolute;
+    display: block;
+}
+@keyframes a {
+    0% {bottom: -100%;}
+    50%,100% {bottom: 100%;}
+}
+.text-box a:hover { /*neon light*/
+    background: #03e9f4; color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #03e9f4,
+    0 0 25px #0313f4,
+     0 0 50px #03e9f4,
+      0 0 100px #0703f4;
+}
+.secondcontainer {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),transparent),url(secondbackground.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0 8%;
+    position: relative;
+}
+.secondtext-box {
+    color: #fff;
+    position: absolute;
+    bottom: 8%;
+}
+.secondtext-box h1 {
+    font-size: 120px;
+    line-height: 80px;
+    margin-left: -10px;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    background: url(back.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+}
+@keyframes back {
+    100%{
+        background-position: 2000px 0;
+    }
+}
+.secondtext-box .secondrow {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.secondtext-box a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-right: 20px;
+    border: 2px solid #fff;
+    background: linear-gradient(360deg,transparent,#03e9f4);
+    animation: 1s linear infinite;
+    animation-delay: .75s;
+}
+.secondtext-box a span {
+    position: absolute;
+    display: block;
+}
+@keyframes a {
+    0% {bottom: -100%;}
+    50%,100% {bottom: 100%;}
+}
+.secondtext-box a:hover { /*neon light*/
+    background: #03e9f4; color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #03e9f4,
+    0 0 25px #0313f4,
+     0 0 50px #03e9f4,
+      0 0 100px #0703f4;
+}
+.thirdcontainer {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),transparent),url(mainbackground3.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0 8%;
+    position: relative;
+}
+.thirdtext-box {
+    color: #fff;
+    position: absolute;
+    bottom: 8%;
+}
+.thirdtext-box h1 {
+    font-size: 120px;
+    line-height: 100px;
+    margin-left: -10px;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    background: url(back.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+}
+@keyframes back {
+    100%{
+        background-position: 2000px 0;
+    }
+}
+.thirdtext-box .thirdrow {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.thirdtext-box a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-right: 20px;
+    border: 2px solid #fff;
+    background: linear-gradient(360deg,transparent,#03e9f4);
+    animation: 1s linear infinite;
+    animation-delay: .75s;
+}
+.thirdtext-box a span {
+    position: absolute;
+    display: block;
+}
+@keyframes a {
+    0% {bottom: -100%;}
+    50%,100% {bottom: 100%;}
+}
+.thirdtext-box a:hover { /*neon light*/
+    background: #03e9f4; color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #03e9f4,
+    0 0 25px #0313f4,
+     0 0 50px #03e9f4,
+      0 0 100px #0703f4;
+}
